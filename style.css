@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #fff;
+}
+
+header nav {
+    flex: 1;
+    margin-left: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+header .contact-info {
+    font-size: 14px;
+    color: #fff;
+}
+
+.main-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    background-color: #111;
+    padding: 20px 0;
+}
+
+.features .feature-item {
+    text-align: center;
+    max-width: 200px;
+}
+
+.features .feature-item h3 {
+    color: #f39c12;
+}
+
+.promo {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #444;
+}
+
+.promo .btn {
+    padding: 10px 20px;
+    background-color: #e67e22;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.portfolio {
+    background-color: #333;
+    padding: 40px 20px;
+    
+}
+
+.portfolio h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.portfolio .portfolio-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.portfolio .portfolio-item {
+    text-align: center;
+    max-width: 200px;
+}
+
+.portfolio .portfolio-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #222;
+}
